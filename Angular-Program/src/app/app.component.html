@@ -1,1 +1,13 @@
-<app-server></app-server>
+<div>
+    <input type="number" name="num1" [(ngModel)]="num1">
+    <input type="number" name="num2" [(ngModel)]="num2">
+    <br/>
+    <br/>
+    <button (click)="add()">Add</button>
+    <button (click)="subtract()">Subtract</button>
+    <button (click)="multiply()">Mulitiplication</button>
+    <button (click)="division()">Division</button>
+    <div>
+        <h3>Result:{{num3}}</h3>
+    </div>
+</div>
